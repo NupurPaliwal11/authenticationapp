@@ -1,0 +1,15 @@
+<!-- button_rounded_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF4081" /> <!-- Background color when button is pressed -->
+            <corners android:radius="16dp" /> <!-- Radius for rounded corners -->
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#E91E63" /> <!-- Default background color -->
+            <corners android:radius="16dp" /> <!-- Radius for rounded corners -->
+        </shape>
+    </item>
+</selector>
